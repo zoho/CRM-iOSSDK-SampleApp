@@ -1,0 +1,6 @@
+framework module Pods_ZylkerFieldBuddy {
+  umbrella header "Pods-ZylkerFieldBuddy-umbrella.h"
+
+  export *
+  module * { export * }
+}

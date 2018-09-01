@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9F99FD1F8299D900756AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F99FC1F8299D900756AD9 /* AppDelegate.swift */; };
+		1F9F9A001F8299D900756AD9 /* ZCRMiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9F99FF1F8299D900756AD9 /* ZCRMiOS.framework */; };
+		1F9F9A021F8299D900756AD9 /* AppConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F9A011F8299D900756AD9 /* AppConfiguration.plist */; };
+		1F9F9A051F8299D900756AD9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F9A041F8299D900756AD9 /* MapView.swift */; };
+		1F9F9A0A1F8299D900756AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F9A081F8299D900756AD9 /* Main.storyboard */; };
+		1F9F9A0F1F8299D900756AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F9A0D1F8299D900756AD9 /* LaunchScreen.storyboard */; };
+		A3587D1F09CE1774A68CA627 /* Pods_ZylkerFieldBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB442740153DAA869B43C13 /* Pods_ZylkerFieldBuddy.framework */; };
+		BF2BB073204DCD51004F748B /* DateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BB072204DCD51004F748B /* DateParser.swift */; };
+		BF3CBA2B2056559500144134 /* PendingJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3CBA2A2056559500144134 /* PendingJobs.swift */; };
+		BF49687720581C5C007F47AA /* CompletedJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49687520581C5C007F47AA /* CompletedJobs.swift */; };
+		BF49687820581C5C007F47AA /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49687620581C5C007F47AA /* Contacts.swift */; };
+		BF49688C20586935007F47AA /* zoho_Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF49688B20586934007F47AA /* zoho_Logo.jpg */; };
+		BF49688E205951A1007F47AA /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49688D205951A1007F47AA /* ContactDetailsView.swift */; };
+		BF496890205B9907007F47AA /* icons8-shutdown-32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF49688F205B9907007F47AA /* icons8-shutdown-32@2x.png */; };
+		BF496892205B9C85007F47AA /* target (4).png in Resources */ = {isa = PBXBuildFile; fileRef = BF496891205B9C84007F47AA /* target (4).png */; };
+		BF496894205B9D81007F47AA /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = BF496893205B9D80007F47AA /* refresh.png */; };
+		BF496896205B9E3A007F47AA /* refresh (1).png in Resources */ = {isa = PBXBuildFile; fileRef = BF496895205B9E3A007F47AA /* refresh (1).png */; };
+		BF50A57020500FDE00063636 /* JobEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A56F20500FDE00063636 /* JobEntryVC.swift */; };
+		BF50A57420514E1800063636 /* JobEntryCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A57320514E1800063636 /* JobEntryCC.swift */; };
+		BF512568205C523B00B2B44D /* id-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF512567205C523B00B2B44D /* id-card@2x.png */; };
+		BF7703C52056BF7300566C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7703C42056BF7200566C5D /* Assets.xcassets */; };
+		BF7703D62056ED6900566C5D /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF7703D52056ED6900566C5D /* Montserrat-Light.ttf */; };
+		BF7703E2205804D100566C5D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7703E1205804D100566C5D /* TableViewCell.swift */; };
+		BF7FC9F5204D42B500D1DEC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7FC9F4204D42B500D1DEC4 /* Extensions.swift */; };
+		BF91C2F72058179900A6F87E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91C2F62058179900A6F87E /* TabBarController.swift */; };
+		BF93DD3220481DFE0052FD28 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD3120481DFE0052FD28 /* Networking.swift */; };
+		BF93DD34204834240052FD28 /* CRM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD33204834240052FD28 /* CRM.swift */; };
+		BF93DD362048347C0052FD28 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD352048347C0052FD28 /* Entity.swift */; };
+		BFA445E4204F052F0018AFE6 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = BFA445D1204F052F0018AFE6 /* OFL.txt */; };
+		BFA44601204F05460018AFE6 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFA445EE204F05450018AFE6 /* Raleway-MediumItalic.ttf */; };
+		BFA44602204F05460018AFE6 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFA445EF204F05450018AFE6 /* Raleway-Light.ttf */; };
+		BFA479AE204FBEC8001CBAD2 /* AppointmentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA479AD204FBEC8001CBAD2 /* AppointmentCard.swift */; };
+		BFACA314205C05EB001F3B15 /* JobCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFACA313205C05EB001F3B15 /* JobCards.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E6C88E72824A79D4336C990 /* Pods-ZylkerFieldBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZylkerFieldBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZylkerFieldBuddy/Pods-ZylkerFieldBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		1F9F99F71F8299D900756AD9 /* ZylkerFieldBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZylkerFieldBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9F99FA1F8299D900756AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9F99FC1F8299D900756AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F9F99FF1F8299D900756AD9 /* ZCRMiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZCRMiOS.framework; sourceTree = "<group>"; };
+		1F9F9A011F8299D900756AD9 /* AppConfiguration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppConfiguration.plist; sourceTree = "<group>"; };
+		1F9F9A031F8299D900756AD9 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		1F9F9A041F8299D900756AD9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1F9F9A091F8299D900756AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9F9A0E1F8299D900756AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AB442740153DAA869B43C13 /* Pods_ZylkerFieldBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZylkerFieldBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCD02EEF0AC0CD57A2F4F8F /* Pods-ZylkerFieldBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZylkerFieldBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZylkerFieldBuddy/Pods-ZylkerFieldBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		96FD8A9CC8858540BD04D2FA /* Pods-TestiOSAPPZohoAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOSAPPZohoAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestiOSAPPZohoAuth/Pods-TestiOSAPPZohoAuth.release.xcconfig"; sourceTree = "<group>"; };
+		9B686E3A5891F4ED52BB055B /* Pods-TestiOSAPPZohoAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOSAPPZohoAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestiOSAPPZohoAuth/Pods-TestiOSAPPZohoAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2BB072204DCD51004F748B /* DateParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateParser.swift; sourceTree = "<group>"; };
+		BF3CBA2A2056559500144134 /* PendingJobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingJobs.swift; sourceTree = "<group>"; };
+		BF49687520581C5C007F47AA /* CompletedJobs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedJobs.swift; sourceTree = "<group>"; };
+		BF49687620581C5C007F47AA /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		BF49688B20586934007F47AA /* zoho_Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zoho_Logo.jpg; sourceTree = "<group>"; };
+		BF49688D205951A1007F47AA /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
+		BF49688F205B9907007F47AA /* icons8-shutdown-32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-shutdown-32@2x.png"; sourceTree = "<group>"; };
+		BF496891205B9C84007F47AA /* target (4).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "target (4).png"; sourceTree = "<group>"; };
+		BF496893205B9D80007F47AA /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		BF496895205B9E3A007F47AA /* refresh (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh (1).png"; sourceTree = "<group>"; };
+		BF50A56F20500FDE00063636 /* JobEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobEntryVC.swift; sourceTree = "<group>"; };
+		BF50A57320514E1800063636 /* JobEntryCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobEntryCC.swift; sourceTree = "<group>"; };
+		BF512567205C523B00B2B44D /* id-card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-card@2x.png"; sourceTree = "<group>"; };
+		BF7703C42056BF7200566C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF7703D42056ED4300566C5D /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		BF7703D52056ED6900566C5D /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "fonts (1)/Montserrat/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		BF7703E1205804D100566C5D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BF7FC9F4204D42B500D1DEC4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BF91C2F62058179900A6F87E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BF93DD3120481DFE0052FD28 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		BF93DD33204834240052FD28 /* CRM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRM.swift; sourceTree = "<group>"; };
+		BF93DD352048347C0052FD28 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		BFA445D1204F052F0018AFE6 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		BFA445EE204F05450018AFE6 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BFA445EF204F05450018AFE6 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		BFA479AD204FBEC8001CBAD2 /* AppointmentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCard.swift; sourceTree = "<group>"; };
+		BFACA313205C05EB001F3B15 /* JobCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCards.swift; sourceTree = "<group>"; };
+		F7B8E965D7A46C2CE47C5DA4 /* Pods_TestiOSAPPZohoAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestiOSAPPZohoAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9F99F41F8299D900756AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9F9A001F8299D900756AD9 /* ZCRMiOS.framework in Frameworks */,
+				A3587D1F09CE1774A68CA627 /* Pods_ZylkerFieldBuddy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9F99EE1F8299D900756AD9 = {
+			isa = PBXGroup;
+			children = (
+				1F9F99F91F8299D900756AD9 /* ZylkerFieldBuddy */,
+				1F9F99F81F8299D900756AD9 /* Products */,
+				4B03514FFA0DF32169DB16D3 /* Pods */,
+				6D42496818FDA412D136ECDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9F99F81F8299D900756AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F99F71F8299D900756AD9 /* ZylkerFieldBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9F99F91F8299D900756AD9 /* ZylkerFieldBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				BFA445C5204F04E40018AFE6 /* Resources */,
+				1F9F99FA1F8299D900756AD9 /* Info.plist */,
+				1F9F9A011F8299D900756AD9 /* AppConfiguration.plist */,
+				1F9F9A031F8299D900756AD9 /* Bridging-Header.h */,
+				1F9F99FC1F8299D900756AD9 /* AppDelegate.swift */,
+				BF93DD3120481DFE0052FD28 /* Networking.swift */,
+				1F9F9A041F8299D900756AD9 /* MapView.swift */,
+				BF93DD33204834240052FD28 /* CRM.swift */,
+				BF3CBA2A2056559500144134 /* PendingJobs.swift */,
+				BF49687520581C5C007F47AA /* CompletedJobs.swift */,
+				BFACA313205C05EB001F3B15 /* JobCards.swift */,
+				BF49687620581C5C007F47AA /* Contacts.swift */,
+				BF49688D205951A1007F47AA /* ContactDetailsView.swift */,
+				BF7703E1205804D100566C5D /* TableViewCell.swift */,
+				BFA479AD204FBEC8001CBAD2 /* AppointmentCard.swift */,
+				BF50A56F20500FDE00063636 /* JobEntryVC.swift */,
+				BF50A57320514E1800063636 /* JobEntryCC.swift */,
+				BF7FC9F4204D42B500D1DEC4 /* Extensions.swift */,
+				BF93DD352048347C0052FD28 /* Entity.swift */,
+				BF2BB072204DCD51004F748B /* DateParser.swift */,
+				1F9F9A081F8299D900756AD9 /* Main.storyboard */,
+				BF91C2F62058179900A6F87E /* TabBarController.swift */,
+				1F9F9A0D1F8299D900756AD9 /* LaunchScreen.storyboard */,
+				BF49688B20586934007F47AA /* zoho_Logo.jpg */,
+				BF512567205C523B00B2B44D /* id-card@2x.png */,
+				BF496891205B9C84007F47AA /* target (4).png */,
+				BF496895205B9E3A007F47AA /* refresh (1).png */,
+				BF496893205B9D80007F47AA /* refresh.png */,
+				BF49688F205B9907007F47AA /* icons8-shutdown-32@2x.png */,
+				BF7703C42056BF7200566C5D /* Assets.xcassets */,
+				1F9F99FE1F8299D900756AD9 /* Frameworks */,
+			);
+			path = ZylkerFieldBuddy;
+			sourceTree = "<group>";
+		};
+		1F9F99FE1F8299D900756AD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F99FF1F8299D900756AD9 /* ZCRMiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B03514FFA0DF32169DB16D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B686E3A5891F4ED52BB055B /* Pods-TestiOSAPPZohoAuth.debug.xcconfig */,
+				96FD8A9CC8858540BD04D2FA /* Pods-TestiOSAPPZohoAuth.release.xcconfig */,
+				1E6C88E72824A79D4336C990 /* Pods-ZylkerFieldBuddy.debug.xcconfig */,
+				5CCD02EEF0AC0CD57A2F4F8F /* Pods-ZylkerFieldBuddy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D42496818FDA412D136ECDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7B8E965D7A46C2CE47C5DA4 /* Pods_TestiOSAPPZohoAuth.framework */,
+				4AB442740153DAA869B43C13 /* Pods_ZylkerFieldBuddy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFA445C5204F04E40018AFE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF7703D52056ED6900566C5D /* Montserrat-Light.ttf */,
+				BFA445EF204F05450018AFE6 /* Raleway-Light.ttf */,
+				BF7703D42056ED4300566C5D /* Raleway-Regular.ttf */,
+				BFA445EE204F05450018AFE6 /* Raleway-MediumItalic.ttf */,
+				BFA445D1204F052F0018AFE6 /* OFL.txt */,
+			);
+			name = Resources;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9F99F61F8299D900756AD9 /* ZylkerFieldBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9F9A281F8299D900756AD9 /* Build configuration list for PBXNativeTarget "ZylkerFieldBuddy" */;
+			buildPhases = (
+				5A4CD7B43F9ED2A270ECD6DE /* [CP] Check Pods Manifest.lock */,
+				1F9F99F31F8299D900756AD9 /* Sources */,
+				1F9F99F41F8299D900756AD9 /* Frameworks */,
+				1F9F99F51F8299D900756AD9 /* Resources */,
+				B942040912E77698E726489A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZylkerFieldBuddy;
+			productName = TestiOSAPPZohoAuth;
+			productReference = 1F9F99F71F8299D900756AD9 /* ZylkerFieldBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9F99EF1F8299D900756AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Zoho;
+				TargetAttributes = {
+					1F9F99F61F8299D900756AD9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F9F99F21F8299D900756AD9 /* Build configuration list for PBXProject "ZylkerFieldBuddy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9F99EE1F8299D900756AD9;
+			productRefGroup = 1F9F99F81F8299D900756AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9F99F61F8299D900756AD9 /* ZylkerFieldBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9F99F51F8299D900756AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7703D62056ED6900566C5D /* Montserrat-Light.ttf in Resources */,
+				BF496894205B9D81007F47AA /* refresh.png in Resources */,
+				BF496892205B9C85007F47AA /* target (4).png in Resources */,
+				BFA44601204F05460018AFE6 /* Raleway-MediumItalic.ttf in Resources */,
+				BF512568205C523B00B2B44D /* id-card@2x.png in Resources */,
+				BF496890205B9907007F47AA /* icons8-shutdown-32@2x.png in Resources */,
+				1F9F9A0A1F8299D900756AD9 /* Main.storyboard in Resources */,
+				BFA44602204F05460018AFE6 /* Raleway-Light.ttf in Resources */,
+				BF496896205B9E3A007F47AA /* refresh (1).png in Resources */,
+				BFA445E4204F052F0018AFE6 /* OFL.txt in Resources */,
+				1F9F9A0F1F8299D900756AD9 /* LaunchScreen.storyboard in Resources */,
+				1F9F9A021F8299D900756AD9 /* AppConfiguration.plist in Resources */,
+				BF49688C20586935007F47AA /* zoho_Logo.jpg in Resources */,
+				BF7703C52056BF7300566C5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A4CD7B43F9ED2A270ECD6DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZylkerFieldBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B942040912E77698E726489A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZylkerFieldBuddy/Pods-ZylkerFieldBuddy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZCRMiOS/ZCRMiOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZCRMiOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZylkerFieldBuddy/Pods-ZylkerFieldBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9F99F31F8299D900756AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF49688E205951A1007F47AA /* ContactDetailsView.swift in Sources */,
+				1F9F9A051F8299D900756AD9 /* MapView.swift in Sources */,
+				BF91C2F72058179900A6F87E /* TabBarController.swift in Sources */,
+				BF3CBA2B2056559500144134 /* PendingJobs.swift in Sources */,
+				BF93DD34204834240052FD28 /* CRM.swift in Sources */,
+				BF93DD362048347C0052FD28 /* Entity.swift in Sources */,
+				BF2BB073204DCD51004F748B /* DateParser.swift in Sources */,
+				1F9F99FD1F8299D900756AD9 /* AppDelegate.swift in Sources */,
+				BF93DD3220481DFE0052FD28 /* Networking.swift in Sources */,
+				BF49687720581C5C007F47AA /* CompletedJobs.swift in Sources */,
+				BF7FC9F5204D42B500D1DEC4 /* Extensions.swift in Sources */,
+				BF49687820581C5C007F47AA /* Contacts.swift in Sources */,
+				BFA479AE204FBEC8001CBAD2 /* AppointmentCard.swift in Sources */,
+				BF7703E2205804D100566C5D /* TableViewCell.swift in Sources */,
+				BF50A57020500FDE00063636 /* JobEntryVC.swift in Sources */,
+				BFACA314205C05EB001F3B15 /* JobCards.swift in Sources */,
+				BF50A57420514E1800063636 /* JobEntryCC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F9F9A081F8299D900756AD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9F9A091F8299D900756AD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9F9A0D1F8299D900756AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9F9A0E1F8299D900756AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F9F9A261F8299D900756AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F9F9A271F8299D900756AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9F9A291F8299D900756AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6C88E72824A79D4336C990 /* Pods-ZylkerFieldBuddy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8283JM38S;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestiOSAPPZohoAuth",
+				);
+				INFOPLIST_FILE = ZylkerFieldBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.crm.boopathysdk.ZylkerFieldAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9F9A2A1F8299D900756AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CCD02EEF0AC0CD57A2F4F8F /* Pods-ZylkerFieldBuddy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8283JM38S;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestiOSAPPZohoAuth",
+				);
+				INFOPLIST_FILE = ZylkerFieldBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.crm.boopathysdk.ZylkerFieldAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9F99F21F8299D900756AD9 /* Build configuration list for PBXProject "ZylkerFieldBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F9A261F8299D900756AD9 /* Debug */,
+				1F9F9A271F8299D900756AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9F9A281F8299D900756AD9 /* Build configuration list for PBXNativeTarget "ZylkerFieldBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F9A291F8299D900756AD9 /* Debug */,
+				1F9F9A2A1F8299D900756AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9F99EF1F8299D900756AD9 /* Project object */;
+}

@@ -1,0 +1,13 @@
+{
+    "bundled_apps": [
+        "crm"
+    ],
+    "crm": {
+        "appType": "zcrm",
+        "platform": "iOS",
+        "library_version": "0.0.1"
+    },
+    "installation_info": {
+        "cli_version": "1.0.5"
+    }
+}

@@ -83,7 +83,7 @@ class CompletedJobs:UIViewController {
     } // func ends
     
     
-    func refreshAPIData()
+    @objc func refreshAPIData()
     {
         
         model.loadAPIdata(For: CRM.menuViews.completedJobs) {

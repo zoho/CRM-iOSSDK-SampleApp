@@ -238,9 +238,13 @@ extension ViewController : MKMapViewDelegate , CLLocationManagerDelegate {
   
         let currentLocation = CRM.currentUserCoords
         
-        let zoom:MKCoordinateSpan = MKCoordinateSpanMake(0.5, 0.5)
+        let zoom: MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
         
-        let region:MKCoordinateRegion = MKCoordinateRegionMake(currentLocation, zoom)
+//        let zoom:MKCoordinateSpan = MKCoordinateSpanMake(0.5, 0.5)
+        
+        let region : MKCoordinateRegion = MKCoordinateRegion(center: currentLocation, span: zoom)
+        
+//        let region:MKCoordinateRegion = MKCoordinateRegionMake(currentLocation, zoom)
         
         mapView.setRegion(region, animated: true)
      

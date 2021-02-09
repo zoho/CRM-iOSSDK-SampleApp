@@ -95,7 +95,7 @@ class PendingJobs:UIViewController {
     
     
     
-    func refreshAPIData()
+    @objc func refreshAPIData()
     {
         
         model.loadAPIdata(For: CRM.menuViews.pendingJobs){

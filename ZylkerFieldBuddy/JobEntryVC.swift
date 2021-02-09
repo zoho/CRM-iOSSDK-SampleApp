@@ -301,7 +301,7 @@ extension JobEntryVC {  // Image Functions
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) 
     {
         
-         selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage
+        selectedImage = info[UIImagePickerController.InfoKey.originalImage.rawValue] as? UIImage
         
         if selectedImage != nil{
             
@@ -365,7 +365,7 @@ extension JobEntryVC {  // Image Functions
         do
         {
         
-        try UIImageJPEGRepresentation(selectedImage!, 0.5)?.write(to: imagePath!)
+            try selectedImage!.jpegData(compressionQuality: 0.5)?.write(to: imagePath!)
         }
         
         catch
@@ -454,7 +454,7 @@ extension JobEntryVC {
         DispatchQueue.main.async {
            
             self.activityIndicator?.hidesWhenStopped = true
-            self.activityIndicator?.activityIndicatorViewStyle = .whiteLarge
+            self.activityIndicator?.style = .whiteLarge
             self.view.addSubview( self.activityIndicator!)
             self.activityIndicator?.startAnimating()
             
